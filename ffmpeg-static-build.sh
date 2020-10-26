@@ -5,7 +5,7 @@ echo $TEMP_DIR
 
 (cd $TEMP_DIR; \
   wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz; \
-  tar -zxf ffmpeg-release-amd64-static.tar.xz; \
+  tar -Jxf ffmpeg-release-amd64-static.tar.xz; \
   rm *.xz; \
   export FFMPEG_RELEASE=$(ls -1); \
   cd ffmpeg*; \
