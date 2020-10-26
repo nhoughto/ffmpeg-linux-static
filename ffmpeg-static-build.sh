@@ -10,4 +10,4 @@ echo $TEMP_DIR
   export FFMPEG_RELEASE=$(ls -1); \
   cd ffmpeg*; \
   zip -r ../$FFMPEG_RELEASE.zip *; \
-  cp $TEMP_DIR/$FFMPEG_RELEASE.zip $SCRIPT_DIR/$FFMPEG_RELEASE.zip)
+  cp $TEMP_DIR/$FFMPEG_RELEASE.zip $SCRIPT_DIR/ffmpeg-amd64-static.zip)
